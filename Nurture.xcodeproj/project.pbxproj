@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB100FD11ED5018600F28F47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB100FD01ED5018600F28F47 /* AppDelegate.swift */; };
+		CB100FD61ED5018600F28F47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB100FD41ED5018600F28F47 /* Main.storyboard */; };
+		CB100FD91ED5018600F28F47 /* Nurture.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB100FD71ED5018600F28F47 /* Nurture.xcdatamodeld */; };
+		CB100FDB1ED5018600F28F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB100FDA1ED5018600F28F47 /* Assets.xcassets */; };
+		CB100FDE1ED5018600F28F47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB100FDC1ED5018600F28F47 /* LaunchScreen.storyboard */; };
+		CB5631401ED66E2B00E1C99E /* PlayfairDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB56313F1ED66E2B00E1C99E /* PlayfairDisplay-Bold.ttf */; };
+		CB5631451ED7A15600E1C99E /* Merriweather-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB5631431ED7A15600E1C99E /* Merriweather-BoldItalic.ttf */; };
+		CB5631461ED7A15600E1C99E /* Merriweather-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB5631441ED7A15600E1C99E /* Merriweather-Italic.ttf */; };
+		CB5631481ED7A5BD00E1C99E /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5631471ED7A5BD00E1C99E /* ClassViewController.swift */; };
+		CB56314A1ED7A73E00E1C99E /* CustomSegue01.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5631491ED7A73E00E1C99E /* CustomSegue01.swift */; };
+		CB56314C1ED7A8D000E1C99E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB56314B1ED7A8D000E1C99E /* MainViewController.swift */; };
+		CBCE25B71ED5B60300A36C5D /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE25B51ED5B60300A36C5D /* IntroViewController.swift */; };
+		CBCE25BA1ED5B94C00A36C5D /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE25B91ED5B94C00A36C5D /* PersonalViewController.swift */; };
+		CBCE25BC1ED5BF9600A36C5D /* GovernmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE25BB1ED5BF9600A36C5D /* GovernmentViewController.swift */; };
+		CBCE25BF1ED5CB2800A36C5D /* Merriweather-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBCE25BD1ED5CB2700A36C5D /* Merriweather-Bold.ttf */; };
+		CBCE25C01ED5CB2800A36C5D /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBCE25BE1ED5CB2800A36C5D /* Merriweather-Regular.ttf */; };
+		CBCE25C31ED5CD5400A36C5D /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBCE25C11ED5CD5400A36C5D /* OpenSans-Bold.ttf */; };
+		CBCE25C41ED5CD5400A36C5D /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBCE25C21ED5CD5400A36C5D /* OpenSans-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB100FCD1ED5018600F28F47 /* Nurture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nurture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB100FD01ED5018600F28F47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB100FD51ED5018600F28F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB100FD81ED5018600F28F47 /* Nurture.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nurture.xcdatamodel; sourceTree = "<group>"; };
+		CB100FDA1ED5018600F28F47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB100FDD1ED5018600F28F47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB100FDF1ED5018600F28F47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB56313F1ED66E2B00E1C99E /* PlayfairDisplay-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlayfairDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		CB5631431ED7A15600E1C99E /* Merriweather-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CB5631441ED7A15600E1C99E /* Merriweather-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Italic.ttf"; sourceTree = "<group>"; };
+		CB5631471ED7A5BD00E1C99E /* ClassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
+		CB5631491ED7A73E00E1C99E /* CustomSegue01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegue01.swift; sourceTree = "<group>"; };
+		CB56314B1ED7A8D000E1C99E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CBCE25B51ED5B60300A36C5D /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		CBCE25B91ED5B94C00A36C5D /* PersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		CBCE25BB1ED5BF9600A36C5D /* GovernmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GovernmentViewController.swift; sourceTree = "<group>"; };
+		CBCE25BD1ED5CB2700A36C5D /* Merriweather-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Bold.ttf"; sourceTree = "<group>"; };
+		CBCE25BE1ED5CB2800A36C5D /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
+		CBCE25C11ED5CD5400A36C5D /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		CBCE25C21ED5CD5400A36C5D /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB100FCA1ED5018600F28F47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB100FC41ED5018600F28F47 = {
+			isa = PBXGroup;
+			children = (
+				CB100FCF1ED5018600F28F47 /* Nurture */,
+				CB100FCE1ED5018600F28F47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB100FCE1ED5018600F28F47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB100FCD1ED5018600F28F47 /* Nurture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB100FCF1ED5018600F28F47 /* Nurture */ = {
+			isa = PBXGroup;
+			children = (
+				CB5631421ED68ECA00E1C99E /* Fonts */,
+				CB5631411ED68EBA00E1C99E /* View Controllers */,
+				CB100FD01ED5018600F28F47 /* AppDelegate.swift */,
+				CB100FD41ED5018600F28F47 /* Main.storyboard */,
+				CB100FDA1ED5018600F28F47 /* Assets.xcassets */,
+				CB100FDC1ED5018600F28F47 /* LaunchScreen.storyboard */,
+				CB100FDF1ED5018600F28F47 /* Info.plist */,
+				CB100FD71ED5018600F28F47 /* Nurture.xcdatamodeld */,
+				CB5631491ED7A73E00E1C99E /* CustomSegue01.swift */,
+			);
+			path = Nurture;
+			sourceTree = "<group>";
+		};
+		CB5631411ED68EBA00E1C99E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CBCE25B51ED5B60300A36C5D /* IntroViewController.swift */,
+				CBCE25B91ED5B94C00A36C5D /* PersonalViewController.swift */,
+				CBCE25BB1ED5BF9600A36C5D /* GovernmentViewController.swift */,
+				CB5631471ED7A5BD00E1C99E /* ClassViewController.swift */,
+				CB56314B1ED7A8D000E1C99E /* MainViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CB5631421ED68ECA00E1C99E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CB5631431ED7A15600E1C99E /* Merriweather-BoldItalic.ttf */,
+				CB5631441ED7A15600E1C99E /* Merriweather-Italic.ttf */,
+				CBCE25BD1ED5CB2700A36C5D /* Merriweather-Bold.ttf */,
+				CBCE25BE1ED5CB2800A36C5D /* Merriweather-Regular.ttf */,
+				CBCE25C11ED5CD5400A36C5D /* OpenSans-Bold.ttf */,
+				CBCE25C21ED5CD5400A36C5D /* OpenSans-Regular.ttf */,
+				CB56313F1ED66E2B00E1C99E /* PlayfairDisplay-Bold.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB100FCC1ED5018600F28F47 /* Nurture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB100FE21ED5018600F28F47 /* Build configuration list for PBXNativeTarget "Nurture" */;
+			buildPhases = (
+				CB100FC91ED5018600F28F47 /* Sources */,
+				CB100FCA1ED5018600F28F47 /* Frameworks */,
+				CB100FCB1ED5018600F28F47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nurture;
+			productName = Nurture;
+			productReference = CB100FCD1ED5018600F28F47 /* Nurture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB100FC51ED5018600F28F47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Charlie Schacher";
+				TargetAttributes = {
+					CB100FCC1ED5018600F28F47 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JW5G6WB9V7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CB100FC81ED5018600F28F47 /* Build configuration list for PBXProject "Nurture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB100FC41ED5018600F28F47;
+			productRefGroup = CB100FCE1ED5018600F28F47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB100FCC1ED5018600F28F47 /* Nurture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB100FCB1ED5018600F28F47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5631401ED66E2B00E1C99E /* PlayfairDisplay-Bold.ttf in Resources */,
+				CB100FDE1ED5018600F28F47 /* LaunchScreen.storyboard in Resources */,
+				CB100FDB1ED5018600F28F47 /* Assets.xcassets in Resources */,
+				CB5631461ED7A15600E1C99E /* Merriweather-Italic.ttf in Resources */,
+				CBCE25C31ED5CD5400A36C5D /* OpenSans-Bold.ttf in Resources */,
+				CB5631451ED7A15600E1C99E /* Merriweather-BoldItalic.ttf in Resources */,
+				CBCE25C41ED5CD5400A36C5D /* OpenSans-Regular.ttf in Resources */,
+				CBCE25BF1ED5CB2800A36C5D /* Merriweather-Bold.ttf in Resources */,
+				CB100FD61ED5018600F28F47 /* Main.storyboard in Resources */,
+				CBCE25C01ED5CB2800A36C5D /* Merriweather-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB100FC91ED5018600F28F47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBCE25BC1ED5BF9600A36C5D /* GovernmentViewController.swift in Sources */,
+				CB100FD11ED5018600F28F47 /* AppDelegate.swift in Sources */,
+				CB100FD91ED5018600F28F47 /* Nurture.xcdatamodeld in Sources */,
+				CB56314A1ED7A73E00E1C99E /* CustomSegue01.swift in Sources */,
+				CB5631481ED7A5BD00E1C99E /* ClassViewController.swift in Sources */,
+				CBCE25BA1ED5B94C00A36C5D /* PersonalViewController.swift in Sources */,
+				CBCE25B71ED5B60300A36C5D /* IntroViewController.swift in Sources */,
+				CB56314C1ED7A8D000E1C99E /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB100FD41ED5018600F28F47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB100FD51ED5018600F28F47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB100FDC1ED5018600F28F47 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB100FDD1ED5018600F28F47 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB100FE01ED5018600F28F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CB100FE11ED5018600F28F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB100FE31ED5018600F28F47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JW5G6WB9V7;
+				INFOPLIST_FILE = Nurture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schacher.nurture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CB100FE41ED5018600F28F47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JW5G6WB9V7;
+				INFOPLIST_FILE = Nurture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.schacher.nurture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB100FC81ED5018600F28F47 /* Build configuration list for PBXProject "Nurture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB100FE01ED5018600F28F47 /* Debug */,
+				CB100FE11ED5018600F28F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB100FE21ED5018600F28F47 /* Build configuration list for PBXNativeTarget "Nurture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB100FE31ED5018600F28F47 /* Debug */,
+				CB100FE41ED5018600F28F47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB100FD71ED5018600F28F47 /* Nurture.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB100FD81ED5018600F28F47 /* Nurture.xcdatamodel */,
+			);
+			currentVersion = CB100FD81ED5018600F28F47 /* Nurture.xcdatamodel */;
+			path = Nurture.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB100FC51ED5018600F28F47 /* Project object */;
+}
